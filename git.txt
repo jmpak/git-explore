@@ -1,0 +1,16 @@
+Creating a Remote Branch
+    git push origin origin:refs/heads/test
+
+Make sure everything is up-to-date
+    git fetch origin
+
+Then you can see that the branch is created.
+    git branch -r
+
+This should show ‘origin/test’
+
+Start tracking the new branch
+    git checkout --track -b test origin/test
+    
+Deleting remote branch
+    git push origin :test
