@@ -17,3 +17,7 @@ Deleting remote branch
     
 Create and switch to branch
     git checkout -b test
+    
+Remove file completely
+    git filter-branch --tree-filter /
+    rm -f something.txt'
