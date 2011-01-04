@@ -14,3 +14,6 @@ Start tracking the new branch
     
 Deleting remote branch
     git push origin :test
+    
+Create and switch to branch
+    git checkout -b test
