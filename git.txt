@@ -21,3 +21,5 @@ Create and switch to branch
 Remove file completely
     git filter-branch --tree-filter /
     rm -f something.txt'
+
+git bisect    
