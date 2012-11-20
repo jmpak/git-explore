@@ -28,3 +28,10 @@ To upate to the latest version in remote repo
   git fetch -q origin && git fetch --tags -q origin && git reset -q --hard origin/master && git clean -q -d -x -f
 
 git remote prune origin
+
+Branch - create, push, delete cycle
+git branch test
+git checkout test
+git push -u origin test
+git branch -d test
+git push origin :test
