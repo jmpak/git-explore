@@ -35,3 +35,8 @@ git checkout test
 git push -u origin test
 git branch -d test
 git push origin :test
+
+how to pick only a few commits to rebase and push vs leave other commits behind\
+git rebase -i origin/master 
+git push origin "HEAD^:master"
+   - HEAD^:master - HEAD^ to remote master
